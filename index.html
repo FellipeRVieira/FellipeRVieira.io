@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Fellipe</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Dev Icon Fonts -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!--  -->
+    <!-- Estrutura CSS do Projeto -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Teste</h1>
+    <main id="container">
+    <!-- Conteúdo Lateral -->
+        <aside id="bio-container">
+            <h2>Fellipe dos Reis Vieira</h2>
+            <img id="bio-image" src="img/foto.png" alt="Fellipe dos Reis Vieira">
+            <p>Olá meu nome é Fellipe dos Reis Vieira e sou <span class="highlight">Desenvolvedor Web</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:fellipereisvieira@gmail.com">fellipereisvieira@gmail.com</a>
+            </div>
+        </aside>
+        
+        <section id="about-container">
+            <h1 id="name">Fellipe dos Reis Vieira</h1>
+            <p id="title"><span class="highlight">Desenvolvedor Web</span></p>
+            <p id="description">Me chamo Fellipe dos Reis Vieira, tenho 23 anos e nasci em Coletina - ES. Concluí o ensino médio na EEEFM Honório Fraga, 
+                juntamente com o curso técnico em informática. Ao longo da minha formação, busquei apromirar meus conhecimentos na área da tecnologia, 
+                cursando <span class="highlight">Técnico em Manutenção e Suporte em Informática</span> pelo IFES - Campus Colatina e também <span class="highlight">Programação Web</span> pelo 
+                IFES - Campos Cachoeiro de Itapemirim.</p>
+            <p id="description"> Atualmente, estou cursando <span class="highlight">Formação Front-end (HTML, CSS, JavaScript, React e outras tecnologias)</span> pela Udemy.</p>
+            <a href="https://github.com/FellipeRVieira" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>Ver projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologia e dominio:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-react-plain colored"></i>
+                    <i class="devicon-bootstrap-plain colored"></i>
+                </div>
+            </div>
+        </section>
+        
+
+    </main>
+    
+   <!-- ION Icons -->
+   <script src = "https://unpkg.com/ionicons@5.1.2/dist/ionicons.js" > </script>
 </body>
 </html>
